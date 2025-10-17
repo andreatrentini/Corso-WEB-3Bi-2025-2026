@@ -61,5 +61,43 @@ Barrato: ~~Questo è un testo barrato~~
 
 ## Link e immagini
 **Motori di ricerca:**
+- [Google](https://google.com)
+- [Bing](https://bing.com)
 
+**Immagini**
+![Questa è un'immagine con URL relativa](./niagara.webp)  
+![Questa è un'immagine con URL assoluta](https://www.marconirovereto.it/wp-content/uploads/assets/images/covers/cover-sportello-matematica-280x280.webp)
 
+## Codice
+```Java
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Questa è una line di commento
+    }
+}
+```
+```bash
+cd /workspaces
+ls
+...
+```
+
+A volte si vuole inserire una istruzione in un paragrafo normale.
+Es. In java per creare una classe si usa `public class Esempio`
+
+## Tabelle
+|Intestazione 1|Intestazione 2|Intestazione 3|
+|-|-|-|
+| valore 1 | Valore 2 | Valore 3 |
+| Valore 4 | Valore 5 | Valore 6 |
+| Valore 4 | Valore 5 | Valore 6 |
+| Valore 4 | Valore 5 | Valore 6 |
+| Valore 4 | Valore 5 | Valore 6 |
+| Valore 4 | Valore 5 | Valore 6 |
+| Valore 4 | Valore 5 | Valore 6 |
+
+## Note a piè pagina
+Capita in un documento di voler inserire note a piè pagina [^1]. Ovviamente anche le note possono essere formattate [^2].
+
+[^1]: Questo è il testo della nota 1
+[^2]: Questo è il testo **della nota 2**
