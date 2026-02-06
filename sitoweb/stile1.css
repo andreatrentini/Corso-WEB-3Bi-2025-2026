@@ -1,0 +1,57 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+h1 {
+  color: green !important;   
+  background-color: beige;
+}
+
+p#paragrafo-speciale {
+    color: red;
+}
+
+p.verde {
+    color: green;
+}
+
+p.blu {
+    color: blue;
+}
+
+footer div p {
+    background-color: red;
+}
+
+h2, h3, h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: violet;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a:active {
+    text-decoration: line-through;
+    color: green;
+}
+
+.menu-orizzontale {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
