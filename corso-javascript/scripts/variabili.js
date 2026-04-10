@@ -8,8 +8,6 @@ var finito = false;
 // Possibile ma da non fare...
 var vettore = ['Mario', 2, true];
 
-
-
 vettore.push(9);
 
 vettore[0] = 'Mattia';
